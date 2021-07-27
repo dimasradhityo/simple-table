@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.table-simple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(29, 165, 11);
+}
+
+th {
+  background-color: green;
+}
